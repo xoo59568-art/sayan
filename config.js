@@ -29,7 +29,7 @@ const AUTH_DIR =
 
 // Export config
 export default {
-  prefix: process.env.PREFIX || ".",
+  prefix: process.env.PREFIX || ",",
   owner: process.env.OWNER_NUMBER || "919874188403",
   sudo: process.env.SUDO || "919874188403",
   packname: process.env.PACKNAME || "Xᴍᴅ",
